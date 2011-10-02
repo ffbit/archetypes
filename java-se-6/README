@@ -1,0 +1,12 @@
+Use the following shell command to create a project
+the archetype:
+    
+mvn archetype:generate                  \
+-DarchetypeGroupId=com.ffbit.archetypes \
+-DarchetypeArtifactId=java-se-6         \
+-DarchetypeVersion=0.0.0.1              \
+-DgroupId=<your.groupId>                \
+-DartifactId=<your.artifactId>          \
+-Dversion=<your.version>                \
+-Dpackage=<your.package>
+
