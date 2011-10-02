@@ -1,1 +1,12 @@
 Some examples of Apache Maven archetypes.
+
+- The simplest java-se-6 archetype.
+
+mvn archetype:generate                  \
+-DarchetypeGroupId=com.ffbit.archetypes \
+-DarchetypeArtifactId=java-se-6         \
+-DarchetypeVersion=0.0.0.1              \
+-DgroupId=<your.groupId>                \
+-DartifactId=<your.artifactId>          \
+-Dversion=<your.version>                \
+-Dpackage=<your.package>
